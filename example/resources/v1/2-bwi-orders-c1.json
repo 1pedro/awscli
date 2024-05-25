@@ -1,0 +1,103 @@
+{
+    "orders-v1":[
+      {
+        "PutRequest":{
+          "Item":{
+            "customerId":{
+              "S":"8f639181-7258-458c-be66-c81762a8e4d8"
+            },
+            "sourceType-sourceId":{
+              "S":"off-app#0001"
+            },
+            "source-type":{
+              "S":"off-app"
+            },
+            "source-id":{
+              "S":"0001"
+            },
+            "origin":{
+              "S":"black-pepper"
+            },
+            "seller-name":{
+              "S":"Magalu"
+            },
+            "type": {
+              "S": "purchase"
+            },
+            "created-at": {
+              "S": "2024-06-25:00:00Z"
+            },
+            "updated-at": {
+              "S": "2021-06-25:00:00Z"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest":{
+          "Item":{
+            "customerId":{
+              "S":"8f639181-7258-458c-be66-c81762a8e4d8"
+            },
+            "sourceType-sourceId":{
+              "S":"in-app#0001"
+            },
+            "source-type":{
+              "S":"in-app"
+            },
+            "source-id":{
+              "S":"0001"
+            },
+            "origin":{
+              "S":"rosemary"
+            },
+            "seller-name":{
+              "S":"Via"
+            },
+            "type": {
+              "S": "purchase"
+            },
+            "created-at": {
+              "S": "2024-05-25:00:00Z"
+            },
+            "updated-at": {
+              "S": "2021-05-25:00:00Z"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest":{
+          "Item":{
+            "customerId":{
+              "S":"8f639181-7258-458c-be66-c81762a8e4d8"
+            },
+            "sourceType-sourceId":{
+              "S":"mini-apps#0002"
+            },
+            "source-type":{
+              "S":"mini-apps"
+            },
+            "source-id":{
+              "S":"0002"
+            },
+            "origin":{
+              "S":"comandeira"
+            },
+            "seller-name":{
+              "S":"iFood"
+            },
+            "type": {
+              "S": "giftcard"
+            },
+            "created-at": {
+              "S": "2024-05-25:00:00Z"
+            },
+            "updated-at": {
+              "S": "2021-05-25:00:00Z"
+            }
+          }
+        }
+      }
+    ]
+  }

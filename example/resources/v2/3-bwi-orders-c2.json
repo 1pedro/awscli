@@ -1,0 +1,121 @@
+{
+    "orders-v2":[
+      {
+        "PutRequest":{
+          "Item":{
+            "customerId":{
+              "S":"890f5223-3b59-4b44-a81c-375b4e8a0029"
+            },
+            "sourceType-sourceId":{
+              "S":"off-app#0001"
+            },
+            "type-sourceType-sourceId": {
+              "S": "purchase#off-app#0001"
+            },
+            "createdAt-sourceType-sourceId": {
+              "S": "2024-06-25:00:00Z#off-app#0001"
+            },
+            "source-type":{
+              "S":"off-app"
+            },
+            "source-id":{
+              "S":"0001"
+            },
+            "origin":{
+              "S":"black-pepper"
+            },
+            "seller-name":{
+              "S":"Magalu"
+            },
+            "type": {
+              "S": "purchase"
+            },
+            "created-at": {
+              "S": "2024-06-25:00:00Z"
+            },
+            "updated-at": {
+              "S": "2021-06-25:00:00Z"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest":{
+          "Item":{
+            "customerId":{
+              "S":"890f5223-3b59-4b44-a81c-375b4e8a0029"
+            },
+            "sourceType-sourceId":{
+              "S":"in-app#0002"
+            },
+            "type-sourceType-sourceId": {
+              "S": "purchase#in-app#0002"
+            },
+            "createdAt-sourceType-sourceId": {
+              "S": "2024-05-25:00:00Z#in-app#0002"
+            },
+            "source-type":{
+              "S":"in-app"
+            },
+            "source-id":{
+              "S":"0002"
+            },
+            "origin":{
+              "S":"rosemary"
+            },
+            "seller-name":{
+              "S":"Via"
+            },
+            "type": {
+              "S": "purchase"
+            },
+            "created-at": {
+              "S": "2024-05-25:00:00Z"
+            },
+            "updated-at": {
+              "S": "2021-05-25:00:00Z"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest":{
+          "Item":{
+            "customerId":{
+              "S":"890f5223-3b59-4b44-a81c-375b4e8a0029"
+            },
+            "sourceType-sourceId":{
+              "S":"mini-apps#0003"
+            },
+            "type-sourceType-sourceId": {
+              "S": "giftcard#mini-apps#0003"
+            },
+            "createdAt-sourceType-sourceId": {
+              "S": "2024-05-25:00:00Z#mini-apps#0003"
+            },
+            "source-type":{
+              "S":"mini-apps"
+            },
+            "source-id":{
+              "S":"0004"
+            },
+            "origin":{
+              "S":"comandeira"
+            },
+            "seller-name":{
+              "S":"iFood"
+            },
+            "type": {
+              "S": "giftcard"
+            },
+            "created-at": {
+              "S": "2024-05-25:00:00Z"
+            },
+            "updated-at": {
+              "S": "2021-05-25:00:00Z"
+            }
+          }
+        }
+      }
+    ]
+  }

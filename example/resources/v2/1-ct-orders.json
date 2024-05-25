@@ -1,0 +1,47 @@
+{
+  "TableName": "orders-v2",
+  "KeySchema": [
+    {
+      "AttributeName": "customerId",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "sourceType-sourceId",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "customerId",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "sourceType-sourceId",
+      "AttributeType": "S"
+    },
+    { "AttributeName": "type-sourceType-sourceId", "AttributeType": "S" },
+    { "AttributeName": "createdAt-sourceType-sourceId", "AttributeType": "S"}
+  ],
+  "LocalSecondaryIndexes": [
+    {
+      "IndexName": "customer-type-index",
+      "KeySchema": [
+        { "AttributeName": "customerId", "KeyType": "HASH" },
+        { "AttributeName": "type-sourceType-sourceId", "KeyType": "RANGE" }
+      ],
+      "Projection": { "ProjectionType": "ALL" }
+    },
+    {
+      "IndexName": "customer-createdat-index",
+      "KeySchema": [
+        { "AttributeName": "customerId", "KeyType": "HASH" },
+        { "AttributeName": "createdAt-sourceType-sourceId", "KeyType": "RANGE" }
+      ],
+      "Projection": { "ProjectionType": "ALL" }
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits" : 5,
+    "WriteCapacityUnits" : 5
+  }
+}
